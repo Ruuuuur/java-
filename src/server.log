@@ -1,0 +1,154 @@
+12月 22, 2024 8:23:07 下午 Server main
+信息: 聊天室服务器启动中...
+12月 22, 2024 8:23:07 下午 Server main
+信息: 服务器已启动，正在监听端口 12345...
+12月 22, 2024 8:23:16 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:23:19 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:23:19 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:24:12 下午 Server main
+信息: 聊天室服务器启动中...
+12月 22, 2024 8:24:12 下午 Server main
+信息: 服务器已启动，正在监听端口 12345...
+12月 22, 2024 8:24:18 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:24:26 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:24:26 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:25:07 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:25:11 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:25:11 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:26:49 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:26:59 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:26:59 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:27:57 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:28:05 下午 Server$ClientHandler run
+信息: 222 已连接到聊天室。
+12月 22, 2024 8:28:12 下午 Server$ClientHandler run
+信息: 333 已连接到聊天室。
+12月 22, 2024 8:28:16 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:28:16 下午 Server$ClientHandler run
+信息: 333 已退出聊天室。
+12月 22, 2024 8:28:22 下午 Server$ClientHandler run
+信息: 333 已连接到聊天室。
+12月 22, 2024 8:28:48 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:28:48 下午 Server$ClientHandler run
+信息: 333 已退出聊天室。
+12月 22, 2024 8:29:02 下午 Server$ClientHandler run
+信息: 333 已连接到聊天室。
+12月 22, 2024 8:29:12 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:29:12 下午 Server$ClientHandler run
+信息: 333 已退出聊天室。
+12月 22, 2024 8:31:04 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:31:04 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:31:05 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:31:05 下午 Server$ClientHandler run
+信息: 222 已退出聊天室。
+12月 22, 2024 8:33:06 下午 Server main
+信息: 聊天室服务器启动中...
+12月 22, 2024 8:33:06 下午 Server main
+信息: 服务器已启动，正在监听端口 12345...
+12月 22, 2024 8:33:23 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:33:28 下午 Server$ClientHandler run
+信息: 222 已连接到聊天室。
+12月 22, 2024 8:33:32 下午 Server$ClientHandler run
+信息: 333 已连接到聊天室。
+12月 22, 2024 8:33:41 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:33:41 下午 Server$ClientHandler run
+信息: 333 已退出聊天室。
+12月 22, 2024 8:33:44 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:34:03 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:34:03 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:34:03 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:34:03 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:34:04 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:34:04 下午 Server$ClientHandler run
+信息: 222 已退出聊天室。
+12月 22, 2024 8:34:07 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:34:15 下午 Server$ClientHandler run
+信息: 222 已连接到聊天室。
+12月 22, 2024 8:34:22 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:34:22 下午 Server$ClientHandler run
+信息: 222 已退出聊天室。
+12月 22, 2024 8:34:22 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:34:22 下午 Server$ClientHandler run
+信息: 111 已退出聊天室。
+12月 22, 2024 8:36:32 下午 Server main
+信息: 聊天室服务器启动中...
+12月 22, 2024 8:36:32 下午 Server main
+信息: 服务器已启动，正在监听端口 12345...
+12月 22, 2024 8:36:37 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:36:42 下午 Server$ClientHandler run
+信息: 222 已连接到聊天室。
+12月 22, 2024 8:36:46 下午 Server$ClientHandler run
+信息: 333 已连接到聊天室。
+12月 22, 2024 8:37:01 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:37:01 下午 Server$ClientHandler cleanupConnection
+信息: 111 已退出聊天室。
+12月 22, 2024 8:37:03 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:37:03 下午 Server$ClientHandler cleanupConnection
+信息: 222 已退出聊天室。
+12月 22, 2024 8:37:04 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:37:04 下午 Server$ClientHandler cleanupConnection
+信息: 333 已退出聊天室。
+12月 22, 2024 8:39:12 下午 Server main
+信息: 聊天室服务器启动中...
+12月 22, 2024 8:39:12 下午 Server main
+信息: 服务器已启动，正在监听端口 12345...
+12月 22, 2024 8:39:16 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:39:27 下午 Server$ClientHandler run
+信息: 222 已连接到聊天室。
+12月 22, 2024 8:39:31 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:39:31 下午 Server$ClientHandler cleanupConnection
+信息: 111 已退出聊天室。
+12月 22, 2024 8:39:31 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:39:31 下午 Server$ClientHandler cleanupConnection
+信息: 222 已退出聊天室。
+12月 22, 2024 8:41:00 下午 Server main
+信息: 聊天室服务器启动中...
+12月 22, 2024 8:41:00 下午 Server main
+信息: 服务器已启动，正在监听端口 12345...
+12月 22, 2024 8:41:06 下午 Server$ClientHandler run
+信息: 111 已连接到聊天室。
+12月 22, 2024 8:41:12 下午 Server$ClientHandler run
+信息: 222 已连接到聊天室。
+12月 22, 2024 8:41:41 下午 Server$ClientHandler run
+信息: 333 已连接到聊天室。
+12月 22, 2024 8:42:07 下午 Server$ClientHandler run
+警告: 连接出现异常: Connection reset
+12月 22, 2024 8:42:07 下午 Server$ClientHandler cleanupConnection
+信息: 333 已退出聊天室。
