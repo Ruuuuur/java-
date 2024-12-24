@@ -3,6 +3,8 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.net.*;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * 客户端程序
@@ -71,7 +73,7 @@ public class Client {
      * 启动聊天界面
      */
     private static void startChat() {
-        JFrame chatFrame = new JFrame("聊天室应用 - 当前用户名：" + userName); // 主聊天窗口
+        JFrame chatFrame = new JFrame("欢迎使用聊天室应用 - 当前用户名：" + userName); // 主聊天窗口
         chatFrame.setSize(600, 400);
         chatFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         chatFrame.setLocationRelativeTo(null);
@@ -140,7 +142,7 @@ public class Client {
      */
     private static void sendMessage(String message) {
         out.println(message); // 将消息发送到服务器
-        textArea.append("我(" + userName + "): " + message + "\n"); // 显示到聊天区域
+        textArea.append(formatMessage("我(" + userName + "): " + message + "\n")); // 显示到聊天区域
         textArea.setCaretPosition(textArea.getDocument().getLength()); // 滚动到最新消息
     }
 
@@ -156,6 +158,20 @@ public class Client {
                     if (message.startsWith("USERS:")) { // 如果消息是用户列表更新
                         updateUserList(message.substring(6)); // 更新用户列表
                     } else { // 普通消息
+
+                        //提取时间戳后面的信息
+                        String Tem = message.substring(19);
+                        //提取当前发送消息的用户名
+                        // 找到冒号的位置
+                        int colonIndex = Tem.indexOf(":");
+                        // 检查冒号是否存在
+                        if (colonIndex != -1) {
+                            // 提取冒号前的字符串,也就是用户名
+                            String user_now = Tem.substring(1, colonIndex);
+                            if(user_now.equals(userName)){
+                                continue;
+                            }
+                        }
                         textArea.append(message + "\n");
                         textArea.setCaretPosition(textArea.getDocument().getLength()); // 滚动到最新消息
                     }
@@ -164,6 +180,16 @@ public class Client {
                 e.printStackTrace();
             }
         }
+    }
+
+    /**
+     * 格式化消息，添加时间戳
+     * @param message 原始消息
+     * @return 格式化后的消息
+     */
+    private static String formatMessage(String message) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return sdf.format(new Date()) + " " + message; // 添加时间戳
     }
 
     /**
